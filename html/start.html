@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <meta charset="utf-8">
+    <title>Startpagina</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="../vliegtuiglogo.png" alt="logo vliegtuig">
+            </div>
+            <div class="bedrijfsnaam">
+                <p>Inter-Vluchten</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="inloggen">
+            <form action="">
+                <div class="Passagier">
+                    <div class="h1Inlog">
+                        <h1>Passagier</h1>
+                    </div>
+                    <div class="Plabelnaam">
+                        <label for="PassagierInlog">Gebruikersnaam:</label>
+                    </div>
+                    <div class="Ptextnaam">
+                        <input type="text" rows="1" pattern="[a-zA-Z]" required>
+                    </div>
+
+                    <div class="Passagier">
+                        <label for="PassagierInlog">Wachtwoord:</label>
+                    </div>
+                    <div class="Ptextww">
+                        <input type="text" rows="1" pattern="[a-zA-Z]" required>
+                    </div>
+                    <div class="loginknop">
+                        <button type="submit">Login</button>
+                    </div>
+                </div>
+            </form>
+
+            <form action="">
+                <div class="Medewerker">
+                    <div class="h1Inlog">
+                        <h1>Medewerker</h1>
+                    </div>
+                    <div class="Plabelnaam">
+                        <label for="PassagierInlog">MedewerkersID:</label>
+                    </div>
+                    <div class="Ptextnaam">
+                        <input type="text" rows="1" pattern="[a-zA-Z]" required>
+                    </div>
+
+                    <div class="Passagier">
+                        <label for="PassagierInlog">Wachtwoord:</label>
+                    </div>
+                    <div class="Ptextnaam"></div>
+                    <input type="text" rows="1" pattern="[a-zA-Z]" required>
+                </div>
+                <div class="loginknop">
+                    <button type="submit">Login</button>
+                </div>
+                </div>
+            </form>
+        </div>
+
+        <h1> vlucht informatie</h1>
+            <form>
+                <label for="tijd">tijd:</label>
+                <select>
+                    <option value="Alle">Alle</option>
+                    <option value="Ochtend">Ochtend</option>
+                    <option value="Middag">Middag</option>
+                    <option value="Avond">Avond</option>
+                    <option value="Middernacht">Middernacht</option>
+                </select>
+    
+                <label for="luchthaven">luchthaven:</label>
+                <select>
+                    <option value="Alle">Alle</option>
+                    <option value="Amsterdam">Amsterdam</option>
+                    <option value="Eindhoven">Eindhoven</option>
+                    <option value="Parijs">Parijs</option>
+                    <option value="Qatar">Qatar</option>
+                    <option value="Chernobyl">Chernobyl</option>
+                </select>
+            </form>
+
+        <p>vlucht 1</p>
+        <p>vlucht 2</p>
+        <p>vlucht 3</p>
+    </main>
+
+    <footer>
+        <a href="../html/privacy.html">Privacy verklaring</a>
+    </footer>
+</body>

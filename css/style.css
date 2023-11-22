@@ -1,0 +1,32 @@
+.header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px
+}
+
+.header {
+    display:grid;
+    grid-template-columns: 200px auto;
+}
+
+.inloggen {
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+.passagier {
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+footer {
+    position:absolute;
+    bottom: 0;
+    height: 50px;
+}
+
+
+.vluchtinfo {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+}
