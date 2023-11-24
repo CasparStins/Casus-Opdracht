@@ -30,17 +30,17 @@
                         <h1>Passagier</h1>
                     </div>
                     <div class="Plabelnaam">
-                        <label for="PassagierInlog">Gebruikersnaam:</label>
+                        <label for="gebruikersnaam">Gebruikersnaam:</label>
                     </div>
                     <div class="Ptextnaam">
-                        <input type="text" rows="1" required>
+                        <input type="text" id="gebruikersnaam" required>
                     </div>
 
                     <div class="Passagier">
-                        <label for="PassagierInlog">Wachtwoord:</label>
+                        <label for="wachtwoord">Wachtwoord:</label>
                     </div>
                     <div class="Ptextww">
-                        <input type="text" rows="1" required>
+                        <input type="text" id="wachtwoord" name="wachtwoord" required>
                     </div>
                     <div class="loginknop">
                         <button type="submit">Login</button>
@@ -54,17 +54,17 @@
                         <h1>Medewerker</h1>
                     </div>
                     <div class="Plabelnaam">
-                        <label for="PassagierInlog">MedewerkersID:</label>
+                        <label for="MedewerkersID">MedewerkersID:</label>
                     </div>
                     <div class="Ptextnaam">
-                        <input type="text" rows="1" required>
+                        <input type="text" id="MedewerkersID" required>
                     </div>
 
                     <div class="Passagier">
                         <label for="PassagierInlog">Wachtwoord:</label>
                     </div>
-                    <div class="Ptextnaam"></div>
-                    <input type="text" rows="1" required>
+                    <div class="Ptextnaam">
+                    <input type="text" id="PassagierInlog" required>
                 </div>
                 <div class="loginknop">
                     <button type="submit">Login</button>
@@ -76,7 +76,7 @@
         <h1> vlucht informatie</h1>
             <form>
                 <label for="tijd">tijd:</label>
-                <select>
+                <select id="tijd">
                     <option value="Alle">Alle</option>
                     <option value="Ochtend">Ochtend</option>
                     <option value="Middag">Middag</option>
@@ -85,7 +85,7 @@
                 </select>
     
                 <label for="luchthaven">luchthaven:</label>
-                <select>
+                <select id="luchthaven">
                     <option value="Alle">Alle</option>
                     <option value="Amsterdam">Amsterdam</option>
                     <option value="Eindhoven">Eindhoven</option>

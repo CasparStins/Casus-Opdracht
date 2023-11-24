@@ -28,21 +28,21 @@
     <ul><li class="uwvlucht">Inchecken baggage</li></ul>
     
     <form>
-        <div class="pmarginleft"><label for="passagnierId">Passagier:</label>
-        <input type="text" required></div>
+        <div class="pmarginleft"><label for="passagierwerk">Passagier:</label>
+        <input type="text" id="passagierwerk" required></div>
 
         <div class="phvl"><label for="baggageinchecken">Baggage:</label>
-    <select>
+    <select id="baggageinchecken">
         <option value="Koffer">Koffer</option>
         <option value="Alternatief">Alternatief</option>
     </select></div>
     
     <div class="phvl"><label for="hoeveelheid">Hoeveelheid:</label>
-    <input type="text" pattern="[1-9]" required>
+    <input type="number" id="hoeveelheid" required>
     </div>
 
     <div class="phvl"><label for="totaalgewicht">Gewicht (kilo's):</label>
-    <input type="text" pattern="[1-9]" max="3" required></div>
+    <input type="number" id="totaalgewicht" max="3" required></div>
 
     <div class="knoplinks">
     <button type="submit">Inchecken</button></div>
@@ -51,11 +51,11 @@
     <div class="splitgrid"><div>
     <ul><li class="uwvlucht">Inchecken passagier</li></ul>
     <form>
-        <div class="pmarginleft"><label for="passagiersId">Passagier:</label>
-        <input type="text" required></div>
+        <div class="pmarginleft"><label for="passagierinwerk">Passagier:</label>
+        <input type="text" id="passagierinwerk" required></div>
 
-        <div class="phvl"><label for="VluchtNummer">VluchtNummer:</label>
-        <input type="text" required></div>
+        <div class="phvl"><label for="VluchtNummerwerk">VluchtNummer:</label>
+        <input type="text" id="VluchtNummerwerk" required></div>
 
         <div class="phvl">
         <button type="submit">Voeg toe</button></div>
@@ -64,8 +64,8 @@
     
 <div><ul><li class="uwvlucht">VluchtOphalen</li></ul>
     <form action="../html/werknemerdata.html" method="get">
-        <div class="pmarginleft"><label for="VluchtNummer">VluchtNummer:</label>
-        <input type="text" required></div>
+        <div class="pmarginleft"><label for="VluchtNummerophalen">VluchtNummer:</label>
+        <input type="text" id="VluchtNummerophalen" required></div>
 
         <div class="knop">
             <button type="submit">zoek vlucht data</button>
@@ -77,16 +77,16 @@
     <ul><li class="uwvlucht">Vlucht toevoegen</li></ul>
     <form>
         <div class="pmarginleft"><label for="bestemming">Bestemming:</label>
-        <input type="text" required></div>
+        <input type="text" id="bestemming" required></div>
 
         <div class="phvl"><label for="Vertrek">Vertrek:</label>
-        <input type="datetime-local" required></div>
+        <input type="datetime-local" id="Vertrek" required></div>
 
         <div class="phvl"><label for="passagieraantal">Aantal passagiers:</label>
-        <input type="text" required></div>
+        <input type="text" id="passagieraantal" required></div>
 
         <div class="phvl"><label for="maxgewicht">Maximaal gewicht:</label>
-        <input type="text" required></div>
+        <input type="text" id="maxgewicht" required></div>
 
         <div class="phvl">
         <button type="submit">Voeg vlucht toe</button></div>
