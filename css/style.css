@@ -9,7 +9,7 @@
     grid-template-columns: 200px auto;
 }
 
-.inloggen {
+.splitgrid {
     display:grid;
     grid-template-columns: auto auto;
 }
@@ -84,4 +84,16 @@ a {
 
 .vluchtinfo p {
     padding-left: 20%;
+}
+
+/* medewerker pagina */
+
+.knop {
+    padding-top: 3%;
+    margin-left: 6%;
+}
+
+.knoplinks {
+    padding-top: 3%;
+    margin-left: 6%;
 }
