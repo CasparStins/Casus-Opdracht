@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <div class="headerpassagier">
+        <div class="headerpassagier bold-text">
             <div class="logo">
                 <img src="../vliegtuiglogo.png" alt="logo vliegtuig">
             </div>
@@ -24,25 +24,40 @@
     </header>
 
     <main>
-        <ul>
-            <li class="uwvlucht">Uw vlucht</li>
         
+        <ul><li class="uwvlucht">Uw vlucht</li></ul>
+            <div class="vluchtinfo">
+                <p>11843</p>
+                <p>Vanaf: Tokyo</p>
+                <p>Gaat naar: Amsterdam</p>
+                <p>Vertrekt op: 22/11/2023 8PM</p>
+            </div>
 
-        <div class="vluchtinfo">
+            <div class="pbaggage">
+               <ul><li class="uwvlucht">Ingecheckte baggage</li></ul>
 
-            <div class="vluchttext"><p>11843</p></div>
-            <div class="vluchttext"><p>Vanaf: Tokyo</p></div>
-            <div class="vluchttext"><p>Gaat naar: Amsterdam</p></div>
-            <div class="vluchttext"><p>Vertrekt op: 22/11/2023 8PM</p></div>
-        </div>
-          <div class="pbaggage"> <li class="uwvlucht">Ingecheckte baggage</li>
-        
-        <p>2 grote rugzakken</p>
-        <p>1 tent</p>
-    </div> 
-         <div class="pbaggage">   <li class="uwvlucht">Nog in the checken</li>
-        <p>2 koffers</p>
-    </div>
-    </ul>
+                <p class="pmarginleft">2 Koffers</p>
+                <p class="pmarginleft">1 Alternatief</p>
+            </div>
+
+            <div class="pbaggage">
+                <ul><li class="uwvlucht">Inchecken van baggage</li></ul>
+                
+                <form>
+                    <div class="pmarginleft"><label for="baggageinchecken">Baggage:</label>
+                <select>
+                    <option value="Koffer">Koffer</option>
+                    <option value="Alternatief">Alternatief</option>
+                </select></div>
+                
+                <div class="phvl"><label for="hoeveelheid">Hoeveelheid:</label>
+                <input type="text" pattern="[1-9]" required>
+                </div>
+                </form>
+            </div>
+
+            <footer>
+                <a href="../html/privacy.html">Privacy verklaring</a>
+            </footer>
     </main>
 </body>
